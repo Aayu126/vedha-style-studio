@@ -44,10 +44,11 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="bg-vedha-burgundy hover:bg-vedha-burgundy/90 text-white px-8 py-6 text-lg font-medium transition-elegant backdrop-blur-sm"
-            >
-              Shop Now
-            </Button>
+              className="border-vedha-burgundy text-vedha-burgundy hover:bg-vedha-burgundy hover:text-white px-8 py-6 text-lg font-medium transition-all"
+             >
+             Shop Now
+           </Button>
+
           </div>
         </div>
       </div>
