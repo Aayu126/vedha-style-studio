@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,7 +20,7 @@ All colors MUST be HSL.
     --popover-foreground: 343 16% 20%;
 
     --primary: 343 65% 35%;
-    --primary-foreground: 0 0% 98%;
+    --primary-foreground: 215 25% 26.6667%;
 
     --secondary: 45 92% 85%;
     --secondary-foreground: 343 65% 35%;
@@ -42,17 +44,17 @@ All colors MUST be HSL.
     --vedha-cream: 45 92% 95%;
     --vedha-charcoal: 343 16% 20%;
     --vedha-light: 343 8% 95%;
-    
+
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--vedha-burgundy)), hsl(343 65% 45%));
     --gradient-gold: linear-gradient(135deg, hsl(var(--vedha-gold)), hsl(45 92% 80%));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--vedha-light)));
-    
+
     /* Shadows */
     --shadow-elegant: 0 10px 30px -10px hsl(var(--vedha-burgundy) / 0.15);
     --shadow-card: 0 4px 20px -4px hsl(var(--vedha-burgundy) / 0.1);
     --shadow-glow: 0 0 40px hsl(var(--vedha-gold) / 0.3);
-    
+
     /* Transitions */
     --transition-elegant: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -130,7 +132,7 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground font-sans;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif tracking-tight;
   }
@@ -140,19 +142,19 @@ All colors MUST be HSL.
   .gradient-hero {
     background: var(--gradient-hero);
   }
-  
+
   .gradient-gold {
     background: var(--gradient-gold);
   }
-  
+
   .shadow-elegant {
     box-shadow: var(--shadow-elegant);
   }
-  
+
   .shadow-card {
     box-shadow: var(--shadow-card);
   }
-  
+
   .transition-elegant {
     transition: var(--transition-elegant);
   }
